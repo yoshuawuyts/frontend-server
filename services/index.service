@@ -1,0 +1,12 @@
+[Unit]
+Description=crud container
+Author=Me
+After=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker start -a frontend-server
+ExecStop=/usr/bin/docker stop -t 2 frontend-server
+
+[Install]
+WantedBy=local.target
