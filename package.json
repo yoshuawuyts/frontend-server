@@ -25,7 +25,7 @@
     "myth": "^1.2.1",
     "rework": "^1.0.1",
     "server-summary": "^1.0.0",
-    "watchify": "^2.2.1"
+    "watchify": "3.6.0"
   },
   "devDependencies": {
     "eslint": "^0.10.2",
